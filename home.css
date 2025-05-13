@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: darkblue;
+}
+
+a:hover {
+  color: darkblue;
+  font-size: 25px;
+}
+
+#red {
+  background-image: url("teal.avif");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  
+}
+
+#red:hover {
+  width: 600px;
+  height: 600px;
+  transition: 1.8s;
+}
+
+@font-face {
+  font-family: "cursive";
+  src: url("cursive.otf");
+}
+
+p {
+  color: darkblue;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+  width: 50%;
+  float: left;
+}
+
+#text {
+  width: 50%;
+  float: right;
+}

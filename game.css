@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center
+}
+
+#Alien {
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 430px;
+  display: block;
+  margin: auto;
+}
+
+#demo {
+  font-family: "hollow";
+  font-size: 50px;
+  text-align: center;
+  color: darkblue
+}
+
+#hollow {
+  font-family: "hollow";
+  font-size: 50px;
+  text-align: center;
+  color: darkblue;
+}
+
+@font-face {
+  font-family: "hollow";
+  src: url("gobold.hollow.otf");
+}
+
+a:hover {
+  color: darkblue;
+  font-size: 25px;
+}
+

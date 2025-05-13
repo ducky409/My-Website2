@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color:darkblue;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: darkblue;
+}
+
+a:hover {
+  color: darkblue;
+  font-size: 25px;
+}
+
+#Alien {
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 430px;
+  display: block;
+  margin: auto;
+}
+
+#teal {
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 430px;
+  display: block;
+  margin: auto;
+}
+#reds {
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 600px;
+  display: block;
+  margin: auto;
+}
+#yellow {
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 430px;
+  display: block;
+  margin: auto;
+}
+
+#yellow text {
+  color: yellow;
+  font-size: 50px;
+  float: right;
+}

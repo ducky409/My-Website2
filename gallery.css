@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a:hover {
+  color: darkblue;
+  font-size: 25px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: darkblue;
+  transition: 2s;
+}
+
+div:hover {
+  width: 300px;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content img {
+  width: 50%;
+  margin-right: 70px;
+}
+
+.details {
+  width: 50%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
